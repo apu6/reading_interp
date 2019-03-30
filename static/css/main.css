@@ -5,7 +5,7 @@ input[type="number"] {
 body {
   --light-grey-color: #F8F8F8;
   --mid-grey-color: #E5E5E5;
-  background: url('/static/images/painting.png');
+  background: url('/static/images/green_painting.png');
   background-position: center;
   background-size: cover;
   color: white;
@@ -28,5 +28,6 @@ body {
 }
 
 p, ul, li, a, h1 {
-  font-family: 'Fredericka the Great';
+  font-family: 'EB Garamond';
+  font-size: 20px;
 }
