@@ -114,6 +114,7 @@ $(document).ready(() => {
             $randomize.append($2);
             $randomize.append($11);
             $randomize.append($18);
+            $(document.body).attr("style", "background-image: url('static/images/painting3.png')");
             break;
         case 1:
             console.log("case 1");
@@ -121,6 +122,7 @@ $(document).ready(() => {
             $randomize.append($8);
             $randomize.append($13);
             $randomize.append($2);
+            $(document.body).attr("style", "background-image: url('static/images/painting4.jpeg')");
             break;
         case 2:
             console.log("case 2");
@@ -128,6 +130,7 @@ $(document).ready(() => {
             $randomize.append($3);
             $randomize.append($10);
             $randomize.append($9);
+            $(document.body).attr("style", "background-image: url('static/images/painting2.png')");
             break;
         case 3:
             console.log("case 3");
@@ -142,6 +145,7 @@ $(document).ready(() => {
             $randomize.append($6);
             $randomize.append($1);
             $randomize.append($13);
+            $(document.body).attr("style", "background-image: url('static/images/painting5.png')");
             break;
         case 5:
             console.log("case 5");
@@ -149,6 +153,7 @@ $(document).ready(() => {
             $randomize.append($17);
             $randomize.append($15);
             $randomize.append($3);
+            $(document.body).attr("style", "background-image: url('static/images/painting3.png')");
             break;
         case 6:
             console.log("case 6");
@@ -156,6 +161,7 @@ $(document).ready(() => {
             $randomize.append($10);
             $randomize.append($5);
             $randomize.append($16);
+            $(document.body).attr("style", "background-image: url('static/images/painting2.png')");
             break;
         case 7:
             console.log("case 7");
@@ -163,6 +169,7 @@ $(document).ready(() => {
             $randomize.append($4);
             $randomize.append($9);
             $randomize.append($14);
+            $(document.body).attr("style", "background-image: url('static/images/painting4.jpeg')");
             break;
         case 8:
             console.log("case 8");
@@ -170,6 +177,7 @@ $(document).ready(() => {
             $randomize.append($10);
             $randomize.append($12);
             $randomize.append($6);
+            $(document.body).attr("style", "background-image: url('static/images/undergrowth.jpg')");
             break;
         case 9:
             console.log("case 9");
@@ -177,6 +185,7 @@ $(document).ready(() => {
             $randomize.append($7);
             $randomize.append($3);
             $randomize.append($11);
+            $(document.body).attr("style", "background-image: url('static/images/woods.jpg')");
             break;
         case 10:
             console.log("case 10");
@@ -184,6 +193,7 @@ $(document).ready(() => {
             $randomize.append($3);
             $randomize.append($1);
             $randomize.append($15);
+            $(document.body).attr("style", "background-image: url('static/images/yellow-woods.jpg')");
             break;
         default:
             console.log("default");
@@ -191,6 +201,7 @@ $(document).ready(() => {
             $randomize.append($5);
             $randomize.append($6);
             $randomize.append($7);
+            $(document.body).attr("style", "background-image: url('static/images/frost.jpeg')");
             break;
     }
 
