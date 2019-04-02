@@ -16,53 +16,21 @@ $(document).ready(() => {
     const $woods = $("#woods");
     const $yellow = $("#yellow-woods");
 
-    // $part1.on("mouseover", function() {
-    //     $analysis1.show();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting2.png')");
-    // });
-    // $part1.on("mouseout", function() {
-    //     $analysis1.hide();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting.png')");
-    // });
-    // $part2.on("mouseover", function() {
-    //     $analysis2.show();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting3.png')");
-    // });
-    // $part2.on("mouseout", function() {
-    //     $analysis2.hide();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting.png')");
-    // });
-    // $part3.on("mouseover", function() {
-    //     $analysis3.show();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting4.jpeg')");
-    // });
-    // $part3.on("mouseout", function() {
-    //     $analysis3.hide();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting.png')");
-    // });
-    // $part4.on("mouseover", function() {
-    //     $analysis4.show();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting5.png')");
-    // });
-    // $part4.on("mouseout", function() {
-    //     $analysis4.hide();
-    //     $(document.body).attr("style", "background-image: url('static/images/painting.png')");
-    // });
     $undergrowth.on("mouseover", function() {
         console.log("aiyalskfjlskfjlskfj");
-        $(document.body).attr("style", "background-image: url('static/images/undergrowth.jpg')");
+        $(document.body).attr("style", "background-image: url('static/images/undergrowth.png')");
     });
     $undergrowth.on("mouseout", function() {
         $(document.body).attr("style", "background-image: url('static/images/painting.png')");
     });
     $grassy.on("mouseover", function() {
-        $(document.body).attr("style", "background-image: url('static/images/grassy.jpg')");
+        $(document.body).attr("style", "background-image: url('static/images/grassy.png')");
     });
     $grassy.on("mouseout", function() {
         $(document.body).attr("style", "background-image: url('static/images/painting.png')");
     });
     $morning.on("mouseover", function() {
-        $(document.body).attr("style", "background-image: url('static/images/morning.jpg')");
+        $(document.body).attr("style", "background-image: url('static/images/morning.png')");
     });
     $morning.on("mouseout", function() {
         $(document.body).attr("style", "background-image: url('static/images/painting.png')");
@@ -74,13 +42,13 @@ $(document).ready(() => {
         $(document.body).attr("style", "background-image: url('static/images/painting.png')");
     });
     $woods.on("mouseover", function() {
-        $(document.body).attr("style", "background-image: url('static/images/woods.jpg')");
+        $(document.body).attr("style", "background-image: url('static/images/woods.png')");
     });
     $woods.on("mouseout", function() {
         $(document.body).attr("style", "background-image: url('static/images/painting.png')");
     });
     $yellow.on("mouseover", function() {
-        $(document.body).attr("style", "background-image: url('static/images/yellow-woods.jpg')");
+        $(document.body).attr("style", "background-image: url('static/images/yellow-woods.png')");
     });
     $yellow.on("mouseout", function() {
         $(document.body).attr("style", "background-image: url('static/images/painting.png')");
@@ -122,7 +90,7 @@ $(document).ready(() => {
             $randomize.append($8);
             $randomize.append($13);
             $randomize.append($2);
-            $(document.body).attr("style", "background-image: url('static/images/painting4.jpeg')");
+            $(document.body).attr("style", "background-image: url('static/images/painting4.png')");
             break;
         case 2:
             console.log("case 2");
@@ -138,6 +106,7 @@ $(document).ready(() => {
             $randomize.append($19);
             $randomize.append($1);
             $randomize.append($4);
+            $(document.body).attr("style", "background-image: url('static/images/painting.png')");
             break;
         case 4:
             console.log("case 4");
@@ -169,7 +138,7 @@ $(document).ready(() => {
             $randomize.append($4);
             $randomize.append($9);
             $randomize.append($14);
-            $(document.body).attr("style", "background-image: url('static/images/painting4.jpeg')");
+            $(document.body).attr("style", "background-image: url('static/images/painting4.png')");
             break;
         case 8:
             console.log("case 8");
@@ -177,7 +146,7 @@ $(document).ready(() => {
             $randomize.append($10);
             $randomize.append($12);
             $randomize.append($6);
-            $(document.body).attr("style", "background-image: url('static/images/undergrowth.jpg')");
+            $(document.body).attr("style", "background-image: url('static/images/undergrowth.png')");
             break;
         case 9:
             console.log("case 9");
@@ -185,7 +154,7 @@ $(document).ready(() => {
             $randomize.append($7);
             $randomize.append($3);
             $randomize.append($11);
-            $(document.body).attr("style", "background-image: url('static/images/woods.jpg')");
+            $(document.body).attr("style", "background-image: url('static/images/woods.png')");
             break;
         case 10:
             console.log("case 10");
@@ -193,7 +162,7 @@ $(document).ready(() => {
             $randomize.append($3);
             $randomize.append($1);
             $randomize.append($15);
-            $(document.body).attr("style", "background-image: url('static/images/yellow-woods.jpg')");
+            $(document.body).attr("style", "background-image: url('static/images/yellow-woods.png')");
             break;
         default:
             console.log("default");
@@ -201,13 +170,13 @@ $(document).ready(() => {
             $randomize.append($5);
             $randomize.append($6);
             $randomize.append($7);
-            $(document.body).attr("style", "background-image: url('static/images/frost.jpeg')");
+            $(document.body).attr("style", "background-image: url('static/images/frost.png')");
             break;
     }
 
     $frost = $("#frost");
     $frost.on("mouseover", function() {
-        $(document.body).attr("style", "background-image: url('static/images/frost.jpeg')");
+        $(document.body).attr("style", "background-image: url('static/images/frost.png')");
     });
     $frost.on("mouseout", function() {
         $(document.body).attr("style", "background-image: url('static/images/painting.jpeg')");
